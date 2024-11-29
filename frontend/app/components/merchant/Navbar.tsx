@@ -103,12 +103,12 @@ export default function MerchantNav() {
                                             mb="0"
                                             _hover={{ textDecoration: 'unset' }}
                                         >
-                                            DPDM
+                                            Flash
                                             <Text
                                                 color="primary.500"
                                                 display="inline"
                                             >
-                                                S
+                                                delivery
                                             </Text>
                                         </Link>
                                     </Box>

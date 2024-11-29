@@ -2,7 +2,7 @@
 
 # Delivery Management System
 
-### [Demo](https://dpdms.up.railway.app/)
+### [Demo](https://Flash delivery.up.railway.app/)
 
 Demo credential
 

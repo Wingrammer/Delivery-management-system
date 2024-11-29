@@ -25,11 +25,11 @@ function PackageHandlerLayout({ children }: { children: React.ReactNode }) {
                 )}
             >
                 <DesktopSidebar
-                    title="DPDMS-PackageHandler"
+                    title="Flash delivery-PackageHandler"
                     menus={sideBarMenus}
                 />
                 <MobileSidebar
-                    title="DPDMS-PackageHandler"
+                    title="Flash delivery-PackageHandler"
                     menus={sideBarMenus}
                 />
                 <div className="flex flex-col flex-1 w-full">

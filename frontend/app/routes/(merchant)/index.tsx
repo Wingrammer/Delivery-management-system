@@ -55,8 +55,8 @@ function Home() {
                         <Flex alignItems="center" h="100%">
                             <Box>
                                 <Heading color="white" lineHeight="base">
-                                    দেশজুড়ে দ্রুততম ডেলিভারি <br /> সেবা পেতে
-                                    DPDMS <br /> কুরিয়ারের সাথে থাকুন!
+                                     <br /> 
+                                    Flash delivery <br />
                                 </Heading>
                             </Box>
                         </Flex>
@@ -75,8 +75,7 @@ function Home() {
                         >
                             <Box>
                                 <Text color="white" lineHeight="base">
-                                    আমাদের অনলাইন ট্র্যাকিং সার্ভিস দিয়ে
-                                    কুরিয়ার ট্র্যাক করুন
+                                    
                                 </Text>
                             </Box>
                             <Box>

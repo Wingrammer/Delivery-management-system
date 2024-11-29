@@ -1,4 +1,4 @@
-import { BadRequestException, Injectable } from '@nestjs/common';
+import { BadRequestException, Injectable, Logger } from '@nestjs/common';
 import { UsersService } from 'src/users/users.service';
 import { JwtService } from '@nestjs/jwt';
 import { Prisma, User } from '@prisma/client';
@@ -12,6 +12,7 @@ import { UserWithRolesDetails } from './types/auth.types';
 
 @Injectable()
 export class AuthService {
+  private readonly logger = new Logger(AuthService.name);
   readonly saltRounds = process.env.BCRYPT_SALT_OR_ROUNDS;
   constructor(
     private usersService: UsersService,
@@ -26,6 +27,7 @@ export class AuthService {
     email: string,
     pass: string,
   ): Promise<Omit<User, 'password'>> {
+    this.logger.log(`Validating user ${email} with password ${pass}`);
     try {
       const user = await this.usersService.user({ email });
       if (!user) {

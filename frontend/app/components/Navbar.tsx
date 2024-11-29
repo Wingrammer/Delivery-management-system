@@ -90,12 +90,12 @@ export default function Navbar() {
                                             mb="0"
                                             _hover={{ textDecoration: 'unset' }}
                                         >
-                                            DPDM
+                                            Flash
                                             <Text
                                                 color="primary.500"
                                                 display="inline"
                                             >
-                                                S
+                                            delivery
                                             </Text>
                                         </Link>
                                     </Box>
@@ -119,11 +119,11 @@ export default function Navbar() {
                                         />{' '}
                                         <Text as="span">CALL US</Text>
                                         <Link
-                                            href="tel:09610007339"
+                                            href="tel:+228 79694547"
                                             color="primary.500"
                                             fontWeight="bold"
                                         >
-                                            09610007339
+                                            +228 79694547
                                         </Link>
                                     </Flex>
                                     <Button

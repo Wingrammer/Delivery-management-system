@@ -27,7 +27,7 @@ export const OrderSummary = [
         labelText: 'Orders placed',
         value: 3,
         tooltipText:
-            'Total sum of parcels that have been created and picked up by DPDMS',
+            'Total sum of parcels that have been created and picked up by Flash delivery',
     },
     {
         id: 2,
@@ -53,28 +53,28 @@ export const OrderSummary = [
 export const PaymentSummary = [
     {
         id: 1,
-        labelText: 'Total sales using DPDMS',
-        value: 'Tk. 13219.00',
+        labelText: 'Total sales using Flash delivery',
+        value: 'XOF 13219.00',
         tooltipText:
-            'Sum of all the cash collection amount of the parcels that have been picked up by DPDMS',
+            'Sum of all the cash collection amount of the parcels that have been picked up by Flash delivery',
     },
     {
         id: 2,
         labelText: 'Total delivery fees paid',
-        value: 'Tk. 2996.80',
+        value: 'XOF 2996.80',
         tooltipText:
-            'Total delivery charge of all the parcels that have been picked up by DPDMS',
+            'Total delivery charge of all the parcels that have been picked up by Flash delivery',
     },
     {
         id: 3,
         labelText: 'Payment Processing',
-        value: 'Tk. 0',
+        value: 'XOF 0',
         tooltipText: 'Total invoiced amount after delivery completion',
     },
     {
         id: 4,
         labelText: 'Paid amount',
-        value: 'Tk. 10353.50',
+        value: 'XOF 10353.50',
         tooltipText: 'Total amount that have been disbursed to the merchant',
     },
 ]
